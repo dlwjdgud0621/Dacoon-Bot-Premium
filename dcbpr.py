@@ -13,7 +13,7 @@ import as
 app = discord.Client()
 
 access_token = os.environ["BOT_TOKEN"]
-token = "access_token"
+token = access_token
 @app.event
 async def on_ready():
     print("Log in to next : ")
