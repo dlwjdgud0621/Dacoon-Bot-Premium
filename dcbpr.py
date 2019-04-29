@@ -8,10 +8,12 @@ import os
 import openpyxl
 from turtle import *
 import turtle as ttl
+import as
 
 app = discord.Client()
 
-token = "NTY0NzYwNTMzNzU3MzI5NDE5.XKsmTw.mIFa7keNT48dej23JmvWS7cI6vI"
+access_token = os.environ["BOT_TOKEN"]
+token = "access_token"
 @app.event
 async def on_ready():
     print("Log in to next : ")
